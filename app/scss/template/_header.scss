@@ -1,7 +1,53 @@
-body {
-    background-color: blue;
+.header {
+    background-image: url('./../images/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    &__menu {
+        margin-bottom: 148px;
+    }
+    &__logo {
+        margin-bottom: 135px;
+    }
 }
-header {
-    border: 1px solid green;
-    width: 100%;
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__img {
+        margin-bottom: 50px;
+    }
+    &__title {
+        font-size: 6em;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $color-light-text;
+        &_bold {
+            font-weight: bold;
+        }
+    }  
+}
+
+.scroll {
+    position: relative;
+    margin-bottom: 53px;
+    &__text {
+        font-size: 1.8em;
+        color: $color-light-text;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: 57px;
+        
+    }
+    &:after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        background-image: url('./../images/down-arrow.png');
+        width: 32px;
+        height: 32px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
