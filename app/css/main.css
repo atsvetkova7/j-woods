@@ -1,0 +1,13 @@
+body {
+  background-color: blue; }
+
+header {
+  border: 1px solid green;
+  width: 100%; }
+
+body {
+  background-color: blue; }
+
+footer {
+  width: 300px;
+  border: 1px solid red; }
