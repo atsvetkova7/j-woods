@@ -1,0 +1,24 @@
+.contact {
+    &__title {
+        font-size: 3em;
+        color: $color-dark-text;
+        text-transform: uppercase;
+
+    }
+    &__link {
+        font-size: 6em;
+        letter-spacing: 2px;
+        color: $color-dark-text;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-bottom: 60px;
+    }
+}
+.social {
+    &__link {
+        text-decoration: none;
+    }
+    &__img {
+        padding: 12px;
+    }
+}
