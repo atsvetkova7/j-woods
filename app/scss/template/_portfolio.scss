@@ -1,0 +1,10 @@
+.portfolio {
+    background-image: url('./../images/bg-portfolio.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    &__second-title {
+        color: $color-light-text;
+        margin-bottom: 80px;
+    }
+}
